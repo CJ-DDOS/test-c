@@ -7,7 +7,7 @@ int main(void) {
     if (scanf("%d", &n) != 1) {
         printf("Invalid input.\n");
         return 1;
-    } &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&  &&&&&&&&&
+    }
 
     switch (n) {
         case 1:
@@ -50,9 +50,6 @@ int main(void) {
             printf("Invalid month number.\n");
             return 1;
     }
-    do{
-        printf("f");
-    }while (n==0)
 
     return 0;
 }
